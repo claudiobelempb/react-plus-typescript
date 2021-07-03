@@ -12,6 +12,20 @@
 -yarn add @types/react @types/react-dom -D
 -yarn add @babel/preset-react -D
 
+---
+
+# css
+
+-yarn add css-loader -D
+-yarn add mini-css-extract-plugin -D
+-yarn add typescript-plugin-css-modules -D
+
+# img
+
+-yarn add @svgr/webpack -D
+
+---
+
 -yarn create react-app name-project --template typescript
 
 # dependencies
